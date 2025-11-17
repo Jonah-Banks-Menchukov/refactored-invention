@@ -1,6 +1,8 @@
 //Jonah Banks
 //11/12/25
 //This class will decide whether or not a string is valid based on set criteria
+//Precondition: String s is a string that contains only the characters  {},[],or ()
+//Postcondition: Returns true if for every opening bracket, there is a closing bracket with 
 public class Parentheses{
     public static boolean isValid(String s){
         //Continues running until string is empty, or returns false because is something wrong with it
